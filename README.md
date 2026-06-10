@@ -1,4 +1,6 @@
-# Credit Bureau Integration Platform
+############################################################
+# 1. CREDIT BUREAU INTEGRATION PLATFORM
+############################################################
 
 ## Overview
 
@@ -77,55 +79,23 @@ SQL Server Database
 
 ------------------------------------------------------------
 
-## Planned Enhancements
+## How to Run & Test
 
-- Multi-bureau support (Experian, Equifax, TransUnion simulation)
-- Dealer management dashboard
-- Credit score analytics
-- Docker containerization
-- GitHub Actions CI/CD
-- Automated testing
-- Azure deployment
-
-------------------------------------------------------------
-
-## Resume Highlights
-
-- Developed enterprise-grade credit bureau integration simulator
-- Implemented dealer validation and finance approval workflows
-- Built secure JWT-based authentication and authorization
-- Designed RESTful APIs using ASP.NET Core
-- Created audit logging and compliance-focused tracking features
-- Integrated SQL Server persistence with Entity Framework Core
-
-------------------------------------------------------------
-
-## Project Status
-
-Active Development
-
-------------------------------------------------------------
-
-## How to Run & Test the Project
-
-1. Run Backend (.NET API)
-
+### 1. Run Backend
 cd backend/CreditBureau.API
 dotnet run
 
-Expected output:
+Expected:
 Now listening on: http://localhost:5166
 
 ------------------------------------------------------------
 
-2. Open Swagger UI
-
+### 2. Open Swagger UI
 http://localhost:5166/swagger
 
 ------------------------------------------------------------
 
-3. Test Credit Report API
-
+### 3. Test Credit API
 GET /api/CreditReport/{customerName}
 
 Example:
@@ -140,8 +110,7 @@ Response:
 
 ------------------------------------------------------------
 
-4. Test Dealer Validation API
-
+### 4. Test Dealer API
 GET /api/dealer/validate/{dealerCode}
 
 Example:
@@ -156,13 +125,25 @@ Response:
 
 ------------------------------------------------------------
 
-5. Optional Frontend Setup
-
+### 5. Frontend (Optional)
 cd frontend
 npm install
 npm start
 
-Frontend runs at:
 http://localhost:3000
 
 ------------------------------------------------------------
+
+## Resume Highlights
+
+- Built enterprise-grade credit bureau simulation system
+- Implemented dealer validation and finance workflows
+- Designed secure JWT-based authentication
+- Developed REST APIs using ASP.NET Core
+- Added audit logging and compliance tracking
+- Integrated SQL Server with EF Core
+
+------------------------------------------------------------
+
+## Project Status
+Active Development
