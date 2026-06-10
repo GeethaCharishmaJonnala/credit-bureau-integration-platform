@@ -1,6 +1,4 @@
-############################################################
-# 1. CREDIT BUREAU INTEGRATION PLATFORM
-############################################################
+# CREDIT BUREAU INTEGRATION PLATFORM
 
 ## Overview
 
