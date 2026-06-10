@@ -14,9 +14,7 @@ public class CreditBureauService
         {
             CustomerName = customerName,
             CreditScore = score,
-            Status = score >= 700
-                ? "Approved"
-                : "Manual Review"
+            Status = score >= 700 ? "Approved" : "Manual Review"
         };
     }
 }
